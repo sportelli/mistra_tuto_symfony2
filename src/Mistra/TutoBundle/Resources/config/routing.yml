@@ -1,0 +1,7 @@
+register:
+    pattern:  /register.html
+    defaults: { _controller: MistraTutoBundle:Default:register }
+
+admin_edit_user:
+    pattern: /editUser.html
+    defaults: { _controller: MistraTutoBundle:Default:editUser }
